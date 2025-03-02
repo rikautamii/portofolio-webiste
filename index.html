@@ -3,32 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT-AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- MAIN CSS -->
     <title>Rika's Portofolio Website</title>
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
+    <!-- HEADER DESIGN -->
     <header class="header">
         <a href="#" class="logo">Portofolio</a>
 
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
         <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Skill</a>
-            <a href="#">Portofolio</a>
-            <a href="#">Contact</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skill">Skill</a>
+            <a href="#portofolio">Portofolio</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
-    <section class="home">
+
+    <!-- HOME SECTION DESIGN -->
+    <section class="home" id="home">
         <div class="home-content">
             <h3>Hello, It's Me!</h3>
             <h1>Rika Dwi Utami</h1>
-            <h3>And I'm a</h3>
-            <p>I'm a passionate learner in Data Science and Machine Learning.</p>
-                <br>I love exploring data-driven insights and building intelligent solutions.
-            <div class="home-sci">
+            <h3>And I'm a <span>Data Analyst</span></h3>
+            <p>I love exploring data-driven insights and building intelligent solutions.</p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
 
             </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="img/rika.png" alt="">
+
         </div>
     </section>
+
+    <!-- ABOUT SECTION DESIGN -->
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/about-rika.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>ME</span></h2>
+            <h3>Data Analyst</h3>
+            <p>Hi, I'm Rika Dwi Utami. I'm a Data Analyst with a passion for data-driven insights and building intelligent solutions. I have a strong background in data analysis and visualization, and I'm always looking for new challenges to solve. I'm a quick learner and a team player, and I'm always looking for ways to improve my skills and knowledge.</p>
+            <a href="#" class="btn">Read more...</a>
+        </div>
+     </section>
+
+    <script src="JS/main.js"></script>
 </body>
 </html>
