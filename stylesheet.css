@@ -59,7 +59,7 @@ section
 }
 .navbar a
 {
-    color: var(--text-color);
+    color: var(--main-color);
     font-size: 1.5rem;
     font-weight: 700;
     margin-left: 4rem;
@@ -173,4 +173,90 @@ home-content h1
 {
     background: var(--main-color);
     color: var(--snd-bg-color);
+}
+
+.about
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* background: var(--snd-bf-color); */
+}
+
+.about-img img
+{
+    width: 35vw;
+}
+
+.heading
+{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.about-content h2
+{
+    line-height: 1.2;
+    text-align: left;
+}
+
+.about-content h3
+{
+    font-size: 2.6rem;
+}
+
+.about-content p
+{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+.skill h2
+{
+    margin-bottom: 5rem;
+}
+
+.skill-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.skill-container .skill-box
+{
+    width: 30%;
+    /* flex: 1 1 30rem; */
+    background: var(--snd-bf-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: 0.5s ease;
+}
+
+.skill-container .skill-box:hover
+{
+    border: .2rem solid var(--text-color);
+    transform: scale(1.05);
+}
+
+.skill-container .skill-box i
+{
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.skill-container .skill-box h3
+{
+    font-size: 2.6rem;
+}
+
+.skill-container .skill-box p
+{
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
 }
